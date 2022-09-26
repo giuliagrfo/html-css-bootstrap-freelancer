@@ -31,3 +31,13 @@ img {
 .fr_img {
     width: 300px;
 }
+
+.portfolio_title {
+    background-color: rgb(223, 213, 69);
+    width: 200px;
+    height: 100px;
+}
+
+.portfolio img {
+    border-radius: 10px;
+}
