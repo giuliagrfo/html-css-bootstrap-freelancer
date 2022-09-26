@@ -33,7 +33,7 @@ img {
     width: 300px;
 }
 
-.portfolio_title {
+.section_title {
     background-color: rgb(223, 213, 69);
     width: 200px;
     height: 100px;
@@ -47,15 +47,17 @@ img {
     height: 600px;
 }
 
-.about_title {
-    background-color: orange;
-    width: 200px;
-    height: 100px;
-}
 
 .about_col_6 {
     background-color: coral;
     width: 300px;
     height: 200px;
+    border: 2px solid black;
+}
+
+.fr_col_12 {
+    background-color: coral;
+    width: 300px;
+    height: 400px;
     border: 2px solid black;
 }
