@@ -1,0 +1,33 @@
+:root {
+    --primary: #2C3E50;
+    --secondary: #1ABC9C;
+}
+
+header {
+    background-color: var(--primary);
+    height: 100px;
+}
+
+.banner {
+    background-color: var(--secondary);
+}
+
+.fr_col_6 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.avatar_info {
+    background-color: rgb(190, 118, 118);
+    width: 450px;
+    height: 200px;
+}
+
+.fr_img {
+    width: 300px;
+}
