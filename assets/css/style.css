@@ -1,5 +1,6 @@
 :root {
     --primary: #2C3E50;
+    --primary-soft: #3A546D;
     --secondary: #1ABC9C;
 }
 
@@ -60,4 +61,15 @@ img {
     width: 300px;
     height: 400px;
     border: 2px solid black;
+}
+
+footer {
+    background-color: var(--primary-soft);
+    height: 500px;
+}
+
+.footer_col_6 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
 }
