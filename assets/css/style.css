@@ -65,11 +65,16 @@ img {
 
 footer {
     background-color: var(--primary-soft);
-    height: 500px;
+    height: 400px;
 }
 
-.footer_col_6 {
-    width: 200px;
+.footer_col_12 {
+    width: 300px;
     height: 100px;
     background-color: white;
+}
+
+.copyright {
+    background-color: var(--primary);
+    height: 100px;
 }
