@@ -60,7 +60,7 @@
 
 /* #endregion DEBUG */
 
-header {
+.bg_dark {
     background-color: var(--primary);
 }
 
