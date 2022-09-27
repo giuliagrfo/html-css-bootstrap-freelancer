@@ -68,17 +68,12 @@
     background-color: var(--secondary);
 }
 
-.jumbo_img {
+/* .jumbo_img {
     width: 300px;
-}
+} */
 
 h1 {
     font-size: 40px;
-}
-
-.line {
-    width: 80px;
-    height: 4px;
 }
 
 .portfolio {
