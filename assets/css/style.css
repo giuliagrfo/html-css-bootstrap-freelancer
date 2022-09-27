@@ -79,12 +79,19 @@ h1 {
 .line {
     width: 80px;
     height: 4px;
-    border-radius: 3px;
 }
 
-.portfolio img {
-    border-radius: 10px;
+.portfolio {
+    color: var(--primary)
 }
+
+.portfolio .line {
+    background-color: var(--primary);
+}
+
+/* .portfolio img {
+    border-radius: 10px;
+} */
 
 footer {
     background-color: var(--primary-soft);
