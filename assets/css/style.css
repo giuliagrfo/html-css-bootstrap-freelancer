@@ -5,10 +5,6 @@
 }
 
 
-img {
-    max-width: 100%;
-}
-
 /* #region DEBUG */
 
 .debug header {
@@ -50,10 +46,6 @@ img {
     width: 300px;
     height: 400px;
     border: 2px solid black;
-}
-
-.debug footer {
-    height: 400px;
 }
 
 .debug .footer_col_12 {
