@@ -92,6 +92,21 @@ footer {
     background-color: var(--primary-soft);
 }
 
+footer .fb {
+    padding: 0.7rem 1rem;
+}
+
+footer .gl {
+    padding: 0.7rem 0.7rem;
+}
+
+footer .tw, footer .li  {
+    padding: 0.7rem 0.8rem;
+}
+
+.accent {
+    color: var(--secondary);
+}
 .copyright {
     background-color: var(--primary);
 }
