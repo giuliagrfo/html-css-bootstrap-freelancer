@@ -76,7 +76,26 @@ h1 {
     padding: 0 3rem;
 }
 
-.portfolio, .contact {
+.star::before,
+.star::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid rgb(255, 255, 255);
+    border-radius: 2px;
+    width: 4rem;
+    margin: 0 0.2rem;
+    transform: translateY(-0.5rem);
+}
+
+.contact .star::before, 
+.contact .star::after, 
+.portfolio .star::before, 
+.portfolio .star::after {
+    border-top: .3rem solid var(--primary);
+
+}
+
+.portfolio i, .contact i {
     color: var(--primary)
 }
 
@@ -107,6 +126,7 @@ footer .tw, footer .li  {
 .accent {
     color: var(--secondary);
 }
+
 .copyright {
     background-color: var(--primary);
 }
