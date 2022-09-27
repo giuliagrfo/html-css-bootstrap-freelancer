@@ -6,6 +6,7 @@
     <title>Freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="">
 
@@ -17,19 +18,17 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" aria-current="page" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">Contact</a>
-                  </li>
-                  
-                </ul>
-               
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-white" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-white" href="#">Contact</a>
+                    </li>
+                    </ul>
               </div>
             </div>
           </nav>
@@ -39,9 +38,17 @@
 
     <main id="site_main">
         <section class="banner">
-            <div class="d-flex flex-column align-items-center">
-                <img class="img-fluid fr_img mt-4" src="./assets/img/avatar.svg" alt="">
-                <div class="avatar_info my-4"></div>
+            <div class="container">
+                <div class="wrapper">
+                    <img class="img-fluid rounded mx-auto d-block pt-4 banner_img" src="./assets/img/avatar.svg" alt="">
+                    <h1 class="text-uppercase text-white text-center pt-3">Start Bootstrap</h1>
+                    <div class="star text-center">
+                        <div class="line bg-light d-inline-block align-middle"></div> 
+                        <i class="fa-solid fa-star align-middle text-white fs-1"></i> 
+                        <div class="line bg-light d-inline-block align-middle"></div>
+                    </div>
+                </div>
+
             </div>
 
         </section>

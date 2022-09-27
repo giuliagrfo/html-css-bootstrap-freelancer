@@ -68,8 +68,21 @@
     background-color: var(--secondary);
 }
 
-.fr_img {
+.banner_img {
     width: 300px;
+}
+
+h1 {
+    font-size: 40px;
+}
+.line {
+    width: 80px;
+    height: 4px;
+    border-radius: 3px;
+}
+
+.banner i {
+    vertical-align: middle;
 }
 
 .portfolio img {
