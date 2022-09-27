@@ -68,20 +68,24 @@
     background-color: var(--secondary);
 }
 
-/* .jumbo_img {
-    width: 300px;
-} */
-
 h1 {
     font-size: 40px;
 }
 
-.portfolio {
+.wrapper {
+    padding: 0 3rem;
+}
+
+.portfolio, .contact {
     color: var(--primary)
 }
 
-.portfolio .line {
+.portfolio .line, .contact .line {
     background-color: var(--primary);
+}
+
+.btn_send button {
+    background-color: var(--secondary);
 }
 
 footer {
