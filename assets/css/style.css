@@ -72,34 +72,29 @@ h1 {
     font-size: 40px;
 }
 
-.wrapper {
-    padding: 0 3rem;
-}
-
 .star::before,
 .star::after {
     display: inline-block;
     content: "";
-    border-top: .3rem solid rgb(255, 255, 255);
+    background-color: white;
     border-radius: 2px;
-    width: 4rem;
-    margin: 0 0.2rem;
-    transform: translateY(-0.5rem);
+    width: 50px;
+    height: 4px;
 }
 
 .contact .star::before, 
 .contact .star::after, 
 .portfolio .star::before, 
 .portfolio .star::after {
-    border-top: .3rem solid var(--primary);
+    background-color: var(--primary);
+}
+
+.portfolio h2, .contact h2 {
+    color: var(--primary);
 }
 
 .portfolio i, .contact i {
     color: var(--primary)
-}
-
-.portfolio .line, .contact .line {
-    background-color: var(--primary);
 }
 
 .btn_send button {
@@ -122,10 +117,10 @@ footer .tw, footer .li  {
     padding: 0.7rem 0.8rem;
 }
 
-.accent {
-    color: var(--secondary);
-}
-
 .copyright {
     background-color: var(--primary);
+}
+
+.accent {
+    color: var(--secondary);
 }
